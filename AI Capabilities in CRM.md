@@ -444,7 +444,119 @@ Use o **Einstein Discovery for Reports** para:
 - Navegar por correlações e explicações diretamente no relatório
 
 #### Deploy a Model
+
+**What Else Can You Do with Models?**  
+Use **Model Manager** to visualizar, configurar e gerenciar definições de previsão e modelos implantados na sua org.  
+
+Em produção, modelos sofrem _drift_ — perdem acurácia quando os dados reais divergem dos dados de treino. Para evitar isso, aplique o ciclo de vida do modelo:
+
+1. **Train**  
+   Re-treine periodicamente com os dados mais recentes.  
+2. **Evaluate**  
+   Verifique métricas (AUC, R²) e crie alertas automáticos.  
+3. **Deploy**  
+   Publique novas versões após melhorias.  
+4. **Monitor**  
+   Monitore performance ao vivo e receba notificações se cair abaixo de thresholds pré‑configurados.
+
+No Model Manager você pode ativar:
+- Live performance monitoring  
+- Automatic performance alerts  
+- Scheduled model refreshes  
+
+---
+
 #### Predict and Improve Outcomes
-### Ethical Model Development with Einstein Discovery: Quick Look
+
+**Onde obter previsões e melhorias após a implantação?**  
+- **Record Pages (Lightning)**  
+- **Experience Cloud sites**  
+- **CRM Analytics**  
+  - Receitas de preparação de dados (previsões + melhorias)  
+  - Dataflows (previsões)  
+- **Formulas de Process Automation** com a função `PREDICT`  
+- **Salesforce Flows** (Flow Builder)  
+- **Tableau** (dashboards e campos calculados)  
+
+> **Desenvolvedores:** use o **Einstein Prediction Service** e a **Insights API** (REST/Apex) para obter programaticamente insights, previsões e melhorias.
+
+---
+
+#### Ethical Model Development with Einstein Discovery: Quick Look
+
+**O Problema do Viés**  
+Modelos treinados em dados históricos podem herdar vieses, gerando previsões injustas. O Einstein Discovery ajuda você a:
+
+- **Marcar variáveis sensíveis** (idade, raça, gênero, CEP) para análise de viés.  
+- **Detectar disparate impact** e proxies correlacionados a variáveis sensíveis.  
+- **Gerar relatórios de viés** e “model cards” para auditoria contínua.  
+
+**Conclusão:** Com estas salvaguardas, você cria modelos preditivos que são tanto **precisos** quanto **equânimes**.
+
+---
+
 ### Einstein Discovery for Reports: Quick Look
+
+**Descubra insights em relatórios Salesforce**  
+- Requer licença **CRM Analytics Plus** + permissão _Can Run Einstein Discovery for Reports_.  
+- Escaneia dados do relatório com IA e estatística avançada.  
+- Gera insights rápidos, objetivos e visualizações coloridas.
+
+**Filtrar Insights:**  
+- Clique no nome da coluna para focar nas correlações.  
+- Use “Search Insights” para filtrar por valor.  
+- Alterne entre impactos positivos/negativos.  
+- Exiba insights menos significativos se quiser.  
+
+**Melhores Práticas:**  
+- Evite colunas de ID único ou alta cardinalidade (>100 valores).  
+- Exclua linhas sem resultado final (ex.: oportunidades abertas).
+
+---
+
 ### Einstein Prediction Service
+
+**O que é?**  
+API REST pública para interagir com modelos do Einstein Discovery.  
+
+**Use para:**  
+- Obter **predictions** e **improvements**  
+- Gerenciar **prediction definitions** e **modelos** implantados  
+- Executar **bulk scoring**  
+- Agendar **model refresh jobs**
+
+**Conceitos-chave:**  
+- **Prediction:** valor derivado (0–1) que representa um possível resultado futuro.  
+- **Outcome:** KPI de negócio (ex.: chance de ganho).  
+- **Predictors:** variáveis que impactam a previsão.  
+- **Improvements:** ações sugeridas para melhorar o resultado previsto.  
+- **Setas verdes/vermelhas:**  
+  - **Verde:** melhora a previsão  
+  - **Vermelho:** piora a previsão  
+  - **Direção da seta** (para cima/baixo) indica se a ação eleva ou reduz o KPI, dependendo se se busca maximizar ou minimizar.
+
+**Modelos vs. Prediction Definitions:**  
+- **Model:** construção matemática treinada que gera previsões.  
+- **Prediction Definition:** contêiner de um ou mais modelos, roteia requisições para o modelo certo (segmentação por filtros).
+
+**Fluxo Básico de Uso REST:**  
+1. **Configurar Connected App** no Salesforce (OAuth username‑password flow).  
+2. **Obter Access Token** via endpoint OAuth.  
+3. **Listar definições de previsão:**  
+   ```
+   GET /services/data/vXX.X/predictionDefinitions
+   ```  
+4. **Ver metadados e modelos associados:**  
+   ```
+   GET /services/data/vXX.X/sobjects/PredictionDefinition/{ID}/Metadata
+   GET /services/data/vXX.X/predictionDefinitions/{ID}/models
+   ```  
+5. **Solicitar previsões:**  
+   ```
+   POST /services/data/vXX.X/predictionDefinitions/{ID}/predict
+   {
+     "inputs": [ { "field1": value1, ... } ]
+   }
+   ```
+
+---
