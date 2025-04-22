@@ -327,10 +327,124 @@ Incluir Perspectivas Diversas
 Ao longo do ciclo de vida do produto, perspectivas diversas fornecem os insights abrangentes necessários para antecipar riscos de forma eficaz e desenvolver soluções para eles. Exercícios como  a varredura de consequências podem ajudar você a garantir que seus produtos incorporem vozes essenciais na conversa sobre onde a IA de geração está hoje e para onde levá-la amanhã.
 
 Mesmo a IA mais avançada não consegue prever como essa tecnologia moldará o futuro do trabalho, do comércio e, aparentemente, de tudo o mais. Mas, trabalhando juntos, podemos garantir que os valores centrados no ser humano criem uma base de confiança a partir da qual construir um futuro mais eficiente e escalável.
-
+-------------------------------------------------------------------------------------------------------------------------------------
 ## Gain Insight and Improve Outcomes with Einstein Discovery
+
 ### Einstein Discovery: Quick Look
-### Einstein Discovery Basics
+
+**O que é o Einstein Discovery?**  
+O Salesforce Einstein Discovery amplia sua inteligência de negócios com modelagem estatística e aprendizado de máquina supervisionado em um ambiente de iteração rápida e sem necessidade de código. Com ele você pode:
+- Identificar, revelar e visualizar insights sobre seus dados comerciais.  
+- Prever resultados futuros e sugerir ações para melhorar esses resultados.  
+> **Observação:** requer licença do CRM Analytics Plus ou do Einstein Predictions.
+
+---
+
+### Resultados de Negócios Alvo a Serem Melhorados
+
+Selecione um KPI (metas de negócio) e use o Einstein Discovery para:
+
+- **Regressão**  
+  Prever valores numéricos (moeda, contagens, métricas quantitativas).  
+- **Classificação Binária**  
+  Prever resultados “sim”/“não” (ex.: churn, oportunidade ganha).  
+- **Classificação Multiclasse**  
+  Prever entre 3–10 categorias (ex.: qual plano de serviço o cliente escolhe).
+
+---
+
+### Preparar e Limpar Dados (Wrangle Data)
+
+1. **Extrair & Transformar**  
+   - Carregue dados do Salesforce e fontes externas  
+   - Use o CRM Analytics ou ferramentas de terceiros para limpeza e manipulação  
+2. **Selecionar Colunas Relevantes**  
+   - Deixe o Einstein Discovery escolher as variáveis mais correlacionadas com seu KPI  
+3. **Criação de Dataset**  
+   - Combine múltiplas fontes em um único conjunto de dados pronto para análise  
+
+---
+
+### Criar Modelos Preditivos
+
+- **Modelo**  
+  Conjunto de métricas, configurações, previsões e insights baseado no seu KPI.  
+- **Configuração**  
+  Defina meta (maximizar/minimizar), tipo de modelo (regressão, classificação).  
+- **Avaliação**  
+  Métricas como AUC (binária) ou R² (regressão) mostram quão bem o modelo prevê resultados.
+
+---
+
+### Obter Insights de Dados
+
+O Einstein Discovery gera automaticamente:
+
+- **Insights Descritivos**  
+  O que aconteceu (tendências, distribuições).  
+- **Insights Diagnósticos**  
+  Por que aconteceu (gráficos de cascata explicam drivers principais).  
+- **Insights Comparativos**  
+  Diferenças entre dois subgrupos (waterfall compare valor X vs. Y).  
+
+Cada insight vem com visualizações avançadas e explicações em linguagem natural.
+
+---
+
+### Gerar Previsões e Melhorias
+
+1. **Selecione Variáveis de Cenário**  
+   Escolha valores para prever um resultado (ex.: tipo de oportunidade, setor).  
+2. **Visualize**  
+   - **Score de Previsão** (probabilidade de “ganhar”).  
+   - **Principais Preditores** que mais impactam o resultado.  
+3. **Melhorias Sugeridas**  
+   Ações acionáveis para aumentar o resultado previsto (ex.: alterar fonte de lead).
+
+---
+
+### Alertas de Qualidade e Viés
+
+- **Alertas de Dados**  
+  Detecta valores discrepantes, ausentes ou dominantes que podem afetar o modelo.  
+- **Detecção de Viés**  
+  Sinaliza correlações indesejadas com variáveis sensíveis (raça, gênero etc.) para garantir responsabilidade.
+
+---
+
+### Operacionalizar Modelos no Salesforce
+
+Depois de treinar e revisar:
+
+- **Implante** modelos diretamente em:
+  - Páginas Lightning
+  - Experience Cloud
+  - Flows (Flow Builder)
+  - Fórmulas com função PREDICT
+  - APIs REST/Apex
+- **Tableau**  
+  Injete previsões e melhorias em painéis e campos calculados do Tableau sem código.
+
+---
+
+### Soluções Jumpstart
+
+Modelos pré‑construídos para casos de uso comuns:
+- Configuração automática de dataset
+- Criação e deploy rápidos
+- Best practices do setor incorporadas
+
+---
+
+### Einstein Discovery para Relatórios
+
+Use o **Einstein Discovery for Reports** para:
+- Analisar relatórios do Salesforce com IA
+- Gerar insights estatísticos e gráficos interativos
+- Navegar por correlações e explicações diretamente no relatório
+
+#### Deploy a Model
+#### Predict and Improve Outcomes
 ### Ethical Model Development with Einstein Discovery: Quick Look
 ### Einstein Discovery for Reports: Quick Look
 ### Einstein Prediction Service
