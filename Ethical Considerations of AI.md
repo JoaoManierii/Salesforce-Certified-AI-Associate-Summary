@@ -1,4 +1,3 @@
-```markdown
 # Ethical Considerations of AI 🚀  
 **Exam Weight: 39%**
 
@@ -178,3 +177,94 @@ Salesforce publica nossos **Responsible Marketing Principles** e recomendações
 - **Trust & Compliance Documentation** para cada serviço (ISO 27001/18, SOC, PCI, C5, Cyber Essentials, TRUSTe).  
 - **Customer Control**: dados pertencem ao cliente; configurações de privacidade by default and by design.
 
+# California Consumer Privacy Act (CCPA) Basics
+
+---
+
+## Overview & Historical Context  
+Nos EUA, o direito à privacidade tem raízes em decisões judiciais (e.g., *Griswold v. Connecticut*, 1965) e na Federal Privacy Act de 1974. Cada estado pode criar suas próprias leis de privacidade — a Califórnia lidera com a **California Consumer Privacy Act (CCPA)**, em vigor desde 1 Jan 2020.
+
+---
+
+## CCPA Origins & Timeline  
+- **Petição Popular**: Eleitores californianos iniciaram uma proposta via referendo.  
+- **Legislative Compromise**: Em 28 Jun 2018, a iniciativa foi substituída por um projeto de lei aprovado e sancionado.  
+- **Effective Date**: 1 Jan 2020  
+- **Employee Data**: Proteções adiadas até 1 Jan 2023 (único estado a incluir funcionários).
+
+---
+
+## Key Defined Terms  
+| Term                     | Legal Definition                                                                                                                             | Example                                                                                           |
+|--------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
+| **Business**             | Organização com fins lucrativos que faz negócios na CA e que: (1) fatura ≥ US$ 25 mi/ano; (2) coleta PI de ≥ 100 000 indivíduos; ou (3) vende PI e > 50 % da receita. | Acme Inc. faturou US$ 40 bi e tem sede em São Francisco.                                           |
+| **Consumer**             | Pessoa natural residente na CA (Título 18, §17014 CCR).                                                                                        | John, morador de São Francisco.                                                                   |
+| **Personal Information** | Dados que identificam, descrevem ou podem ser razoavelmente associados a um consumidor ou domicílio.                                          | Nome, e-mail, CNH, histórico de compras, dados biométricos, geolocalização, inferências, etc.     |
+| **Process**              | Qualquer operação com dados pessoais (coleta, uso, armazenamento, divulgação, etc.).                                                          | Acme usa CRM para coletar e analisar dados de leads.                                              |
+| **Sell / Sale / Selling**| Compartilhar PI com outra empresa em troca de valor (monetário ou outro).                                                                    | Acme vende lista de clientes à Beta Inc. por US$ 100.                                              |
+| **Service Provider**     | Processa PI em nome de uma Business, sob contrato escrito que limita o uso ao propósito comercial.                                           | Acme contrata Storage Services para armazenar dados de clientes.                                   |
+
+---
+
+## Scope & Applicability  
+- **Who’s Protected**: Todos os **Consumers** californianos (incluindo funcionários, clientes, fornecedores).  
+- **Who Must Comply**: Qualquer **Business** — em qualquer lugar — que faça negócios na CA e receba PI de residentes, se atender a qualquer critério de receita, volume de dados ou fonte de receita.
+
+---
+
+## Consumer Rights under CCPA  
+1. **Right to Notice**  
+   – Saber, no momento da coleta, categorias e finalidades de PI; identificar terceiros com quem a PI é compartilhada.  
+
+2. **Right to Access**  
+   – Solicitar:  
+     - Categorias de PI coletadas;  
+     - Fontes de coleta;  
+     - Finalidades de uso;  
+     - Terceiros que recebem PI;  
+     - Dados específicos mantidos.  
+
+3. **Right to Opt-Out of Sale**  
+   – Solicitar que a Business pare de **Sell** suas PI a qualquer momento; link “**Do Not Sell My Personal Information**” deve estar visível no site.
+
+4. **Right to Deletion**  
+   – Pedir exclusão de PI coletada diretamente, salvo exceções (e.g., cumprimento de contrato, obrigações legais, detectação de fraudes, liberdade de expressão, defesa em litígio, usos internos esperados).
+
+5. **Right to Non-Discrimination**  
+   – Após exercer qualquer direito CCPA, o Consumer não pode ser cobrado ou receber serviços de qualidade inferior.
+
+---
+
+## Compliance Requirements  
+- **Verification**: Autenticar identidade do consumidor antes de atender a qualquer solicitação.  
+- **Timing**: Responder a todas as solicitações em até 45 dias (com possível extensão de 45 dias).  
+- **Designated Methods**: Pelo menos dois canais de contato (e.g., telefone gratuito, e-mail, portal online).  
+- **Privacy Notice**: Atualizar políticas públicas anualmente com todas as divulgações exigidas.  
+- **Training**: Capacitar funcionários que lidam com solicitações e CCPA.  
+- **Vendor Contracts**: Acordos escritos com **Service Providers** limitando uso de PI ao propósito contratado.  
+
+---
+
+## Implementing CCPA in Your Organization  
+1. **Audit & Mapping**: Identifique fluxos de PI, sistemas de armazenamento e fornecedores.  
+2. **Update Disclosures**: Políticas de privacidade, links “Do Not Sell…”, avisos no ponto de coleta.  
+3. **Build Intake Process**: Portais/formulários para receber e gerenciar solicitações.  
+4. **Authentication Procedures**: Protocolos para verificar identidade sem expor PI a terceiros.  
+5. **Data Deletion & Portability**: Mecanismos para deletar e exportar PI de maneira segura.  
+6. **Ongoing Monitoring**: Revisões regulares de processos e treinamentos.
+
+---
+
+## CCPA 2.0: CPRA Enhancements (Effective 1 Jan 2023)  
+- **New Agency**: California Privacy Protection Agency (CPPA) para regulamentação e penalidades.  
+- **Contractors**: Introduz categoria entre Service Providers e Third Parties.  
+- **Sensitive Personal Information (SPI)**: Definição de dados de alto risco (SSN, conta bancária, localização precisa, dados de crianças).  
+- **“Sharing” Opt-Out**: Direito de impedir uso de PI para “behavioral advertising” (mesmo sem troca de valor).  
+- **Risk Assessments & Audits**: Exigência de avaliações de impacto e auditorias periódicas.  
+- **Additional Consumer Rights**:  
+  - **Correction**: Corrigir PI incorreta.  
+  - **Limit Use & Disclosure**: Restringir tratamentos de SPI.  
+
+---
+
+> **Summary**: A CCPA/CPRA impõe transparência, direitos robustos aos consumidores e obriga empresas a implementar processos sólidos de privacidade, desde avisos até respostas a solicitações em 45 dias.  
