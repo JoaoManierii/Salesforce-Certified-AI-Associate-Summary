@@ -5,7 +5,7 @@
 
 ## Meet Salesforce’s Trusted AI Principles
 
-![Trusted AI Principles](image.png)
+![Trusted AI Principles](./complement/image.png)
 
 Em 2018, articulamos nossos **Trusted AI Principles** específicos para produtos, casos de uso e clientes da Salesforce. Após um ano de feedback de diversas equipes e aprovação da alta liderança, definimos cinco princípios fundamentais:
 
@@ -268,3 +268,280 @@ Nos EUA, o direito à privacidade tem raízes em decisões judiciais (e.g., *Gri
 ---
 
 > **Summary**: A CCPA/CPRA impõe transparência, direitos robustos aos consumidores e obriga empresas a implementar processos sólidos de privacidade, desde avisos até respostas a solicitações em 45 dias.  
+
+# Get to Know Relationship Design
+# Relationship Design
+
+## Human-Centered Design (HCD)  
+O design centrado no ser humano é uma abordagem criativa para resolver problemas que começa com a identificação das necessidades das pessoas e termina com soluções—produtos, serviços e experiências—que atendem a essas necessidades. Desenvolvido no Stanford d.school e popularizado pela IDEO, o HCD gera valor comercial: empresas que o adotam superam concorrentes em até 2:1.
+
+### Os três critérios do HCD  
+- **Desirable** (Desejável): as pessoas realmente precisam da solução.  
+- **Viable** (Viável): é possível construir e manter a solução.  
+- **Feasible** (Executável): encaixa-se no modelo de negócios da organização.
+
+## UX Design  
+Foca na experiência que uma pessoa tem com um produto (geralmente digital). Melhora usabilidade, eficiência e satisfação.
+
+> **Exemplo**: check-in de voo  
+> - E-mail com link → página com botão “Check-in” → cartão de embarque em poucos cliques.  
+> - Evolução UX: permitir “responda 1 por SMS” e receber o boarding pass direto no celular.
+
+### Foco do UX Design  
+- Facilidade de uso  
+- Rapidez na execução de tarefas  
+- Satisfação na interação
+
+## Service Design  
+Amplia o UX Design para toda a jornada do cliente, considerando interações digitais e físicas.
+
+> **Exemplo**: experiência de voo completa  
+> 1. Check-in digital  
+> 2. Quiosque de despacho de bagagem  
+> 3. Bebida a bordo solicitada via app  
+> 4. Entretenimento no assento  
+> 5. Desembarque e notificações pós-voo
+
+### Foco do Service Design  
+- Coerência da experiência em múltiplos canais  
+- Processos e sistemas de suporte  
+- Organização interna para entregar valor constante
+
+## Relationship Design  
+Expande UX e Service Design para relações contínuas entre pessoas, marcas e comunidades.
+
+### Objetivos do Relationship Design  
+1. **Engagement** (Engajamento): incentivar interação ao longo do tempo.  
+2. **Connection** (Conexão): facilitar laços entre indivíduos, grupos e marcas.  
+3. **Social Impact** (Impacto social): considerar efeitos em não-usuários e no planeta.
+
+### Critérios adicionais  
+- **Inclusive** (Inclusivo): acessível a todas as identidades e habilidades.  
+- **Sustainable** (Sustentável): respeita recursos e meio ambiente.  
+- **Ethical** (Ético): não prejudica pessoas, especialmente grupos vulneráveis.
+
+> **Exemplo de Airline Relationship Design**  
+> - Assentos lado a lado para grupos  
+> - Opções de gênero inclusivas no check-in  
+> - Ferramentas de conexão entre viajantes  
+> - Relatório de pegada de carbono no app  
+> - Comitê de clientes para feedback contínuo
+
+---
+
+## Fortalecendo Relacionamentos
+
+### Customer Relationships  
+- Considere clientes como seres humanos, não números.  
+- Realize pesquisas e co-crie soluções.  
+- Crie fóruns de feedback e demonstre como ele é incorporado.
+
+### Employee Relationships  
+- Promova workshops interdepartamentais.  
+- Use Journey Maps para entender a jornada do colaborador.  
+- Cultive uma cultura de feedback construtivo e segura.
+
+### Community Relationships  
+- Envolva participantes externos no design.  
+- Questione impactos de longo prazo em normas e comportamentos.  
+- Faça parcerias com líderes comunitários e ONGs.
+
+---
+
+# Relationship Design Mindsets
+
+### Compassion (Compaixão)  
+- Reconheça a humanidade de clientes e colegas.  
+- Traga vozes diversas à mesa e ouça ativamente.  
+- Identifique e mitigue vieses inconscientes.
+
+### Courage (Coragem)  
+- Fale quando algo conflita com seus valores.  
+- Admita erros e aja para corrigi-los.  
+- Seja vulnerável e sa
+ia da zona de conforto.
+
+### Intention (Intenção)  
+- Defina metas de relacionamento, não apenas de métricas.  
+- Use frameworks para antecipar consequências não intencionais.  
+- Crie alertas para impactos negativos e positivos.
+
+### Reciprocity (Reciprocidade)  
+- Busque cocriação e parcerias.  
+- Compartilhe aprendizados e valor com comunidades.  
+- Mantenha o diálogo vivo e adapte-se às mudanças.
+
+---
+
+# Ethics by Design
+
+## Call to a Higher Purpose  
+Na Salesforce, acreditamos que os negócios devem ser plataformas para mudança social. **Ethics by Design** é incorporar princípios éticos e humanos desde o início do desenvolvimento de tecnologia, maximizar impactos positivos e minimizar riscos.
+
+## Why Ethics Matter  
+Pesquisa Salesforce (2018) com 2.400 consumidores nos EUA revelou:  
+- **90%** acreditam que empresas devem melhorar o mundo.  
+- **86%** são mais fiéis a empresas éticas.  
+- **79%** dos funcionários deixariam um emprego com baixa ética.
+
+### Tech Ethics Then & Now  
+- Anos 1980: combate a vírus de computador → security reviews.  
+- Acessibilidade digital: direito humano de acesso à informação.  
+- **EthicalOS Toolkit**: 8 Risk Zones que tech deve mitigar:
+  1. Truth & Disinformation  
+  2. Addiction & Dopamine Economy  
+  3. Economic Inequality  
+  4. Algorithmic Bias  
+  5. Surveillance  
+  6. Data Monetization  
+  7. Implicit Trust  
+  8. Hateful Actors
+
+## Salesforce Office of Ethical & Humane Use  
+**Three Focus Areas**:  
+1. Entender impactos diretos e proteções necessárias.  
+2. Incorporar ética no design & cultura interna (Ethics by Design).  
+3. Avançar campo via diálogos multi-stakeholder.
+
+## Guiding Principles for Ethical & Humane Use  
+- **Human Rights**  
+- **Privacy**  
+- **Security**  
+- **Honesty**  
+- **Inclusion**
+
+## Ethics by Design in Practice
+
+### Trusted AI  
+- **Explainability**: fatores preditivos no Einstein.  
+- **Sensitive Fields**: evitar viés em atributos protegidos.  
+- **Model Cards**: transparência sobre entradas, saídas e ética.
+
+### Inclusive Language  
+- Substituição de termos não-inclusivos (e.g., “whitelist/blacklist”).  
+- Processo contínuo para revisar e corrigir lexicon.
+
+### Responsible Tech in Crisis (COVID-19)  
+- Princípios Work.com:  
+  - Proteger direitos humanos  
+  - Honrar transparência  
+  - Minimizar coleta de dados  
+  - Garantir segurança de dados  
+
+- Funcionalidades multilíngues, SMS, avisos claros de uso.
+
+### Policy & AUP  
+- Bots claramente identificados.  
+- Proibição de decisões judiciais automáticas com Einstein.  
+- Não permitir reconhecimento facial sem consentimento.
+
+---
+
+## Consequence Scanning  
+Envolve atrito produtivo no desenvolvimento: workshops para identificar consequências não-intencionais, mitigando riscos em 6 categorias:  
+1. Benefit Imbalance  
+2. Misuse  
+3. Trust Erosion  
+4. Environmental Impact  
+5. Norm & Behavior Shift  
+6. Social Displacement  
+
+**Como**:  
+- Agenda: perguntas “E se todos fizessem isso?”  
+- “Memória muscular moral” para decisões éticas contínuas.
+
+---
+## Inclusive Design
+
+### “Mismatches” Leave Us Out  
+Todos já sentiram o que é ser excluído. Incompatibilidades — barreiras físicas ou digitais — impedem nossa participação e minam nosso senso de pertencimento.  
+
+> **Exemplos de incompatibilidades**  
+> - Brinquedos de parquinho que exigem altura ou coordenação motora específicas  
+> - Tecnologia que não reconhece voz, idioma ou estilo de fala  
+> - Formulários que não refletem identidades diversas  
+
+Resolver incompatibilidades começa por reconhecer a exclusão e entender práticas de design que perpetuam barreiras.
+
+---
+
+### Three Fears of Inclusion  
+1. **Say the wrong thing** – A linguagem em evolução gera insegurança.  
+2. **Lowest-common-denominator** – Medo de soluções genéricas demais.  
+3. **Lack of resources** – “Não temos tempo, dinheiro ou pessoas suficientes.”  
+
+> **Dica**: Inclusão é desafiar o status quo. Errar faz parte do processo, desde que haja humildade para corrigir e continuar aprendendo.
+
+---
+
+### Inclusive vs. Universal Design  
+- **Inclusive Design**: soluções que oferecem várias maneiras de participar; começa com pessoas que vivenciaram exclusão (especialistas em exclusão).  
+- **Universal Design**: uma única solução para atender a todos, com mínimo de adaptação.
+
+> *“Universal design is a single solution for everyone. Inclusive design is a single solution for one.”*  
+> — Jutta Treviranus, OCAD University
+
+---
+
+### Experts in Exclusion  
+Pessoas que experimentaram altos graus de exclusão têm insights valiosos e devem estar no centro do processo de design inclusivo.
+
+---
+
+### Three Principles of Inclusive Design  
+1. **Recognize exclusion**  
+   - Identifique barreiras e preconceitos no seu processo.  
+2. **Learn from diversity**  
+   - Pessoas adaptam soluções criativamente; convide especialistas em exclusão.  
+3. **Solve for one, extend to many**  
+   - Atenda a uma necessidade específica; os benefícios se estendem a grupos maiores.
+
+---
+
+### The Closed “In–Out” Exclusion Model  
+Um círculo sólido que separa “IN” (dentro) de “OUT” (fora) perpetua uma mentalidade fixa de quem pertence e quem não pertence.
+
+---
+
+### The Exclusion Cycle  
+Exclusão é um ciclo dinâmico, não um estado fixo. Cinco elementos inter-relacionados:
+
+1. **Why we do** it (motivações)  
+2. **Who does** it (quem projeta)  
+3. **How we do** it (métodos e recursos)  
+4. **Who uses** it (suposições sobre usuários)  
+5. **What we do** (solução final)
+
+Cada elemento é uma oportunidade de interromper hábitos de exclusão e resolver incompatibilidades.
+
+---
+
+### Habits of Exclusion  
+– **Hero Complex**: “Eu sei o que é melhor.”  
+– **Designer Definition**: considerar quem realmente cria e adapta soluções.  
+– **Responsibility**: envolver especialistas em exclusão desde o início.
+
+---
+
+### Key Skills for Inclusive Designers  
+- **Identify ability bias**: nossa própria capacidade não representa todas as pessoas.  
+- **Design for mismatch**: entenda deficiência como incompatibilidade, não limitação intrínseca.  
+- **Foster multiple ways to participate**: ofereça diversas interações que aproveitem habilidades complementares.
+
+---
+
+### Ability Bias & Disability as Mismatch  
+- **Ability bias**: usar nossa própria habilidade como padrão.  
+- **Social model of disability**: deficiência surge de incompatibilidades entre pessoa e ambiente.
+
+---
+
+### Diversity of Participation  
+Criar múltiplas maneiras de participar (e.g., controles adaptáveis em videogames) garante que mais pessoas possam se envolver sem barreiras.
+
+
+
+## Values-Driven Design
+## Design as a Social Practice
+## Accountability in Design
+## Relationship Design at Scale
