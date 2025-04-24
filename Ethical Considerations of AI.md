@@ -537,11 +537,117 @@ Cada elemento é uma oportunidade de interromper hábitos de exclusão e resolve
 ---
 
 ### Diversity of Participation  
-Criar múltiplas maneiras de participar (e.g., controles adaptáveis em videogames) garante que mais pessoas possam se envolver sem barreiras.
 
+## Design Beyond the User
 
+O design centrado no ser humano (HCD) considera as necessidades dos usuários como indivíduos, mas não aborda os contextos e dinâmicas sociais em que vivem. O design de relacionamento amplia esse escopo, considerando que os usuários estão inseridos em redes maiores (comunidades, famílias, organizações) e que as escolhas de design afetam esses grupos também. Exemplo: notificações de celular em bibliotecas perturbam a dinâmica social daquele ambiente.
 
-## Values-Driven Design
-## Design as a Social Practice
-## Accountability in Design
-## Relationship Design at Scale
+## Learn About Ecosystem Mapping
+
+O mapeamento de ecossistemas identifica todos os grupos-chave que influenciam um produto ou serviço, como equipes técnicas, financeiras, liderança e atendimento ao cliente. As etapas envolvem:
+
+- Listar tomadores de decisão, influenciadores e grupos relevantes
+- Mapear suas motivações
+- Codificar por cores (vermelho, amarelo, verde) para avaliar o nível de apoio
+- Analisar padrões, objeções e oportunidades
+- Guiar interações com partes interessadas de forma estratégica
+
+## Build a Coalition of the Willing
+
+Uma coalizão de dispostos é um grupo de defensores motivados por uma missão que ajudam a tirar ideias do papel. A construção ocorre em três fases:
+
+- Descoberta: identificar aliados, mapear visão e necessidades
+- Integração: iniciar colaboração prática e documentar recursos
+- Parceria: apresentar proposta à liderança, conectando a ideia a objetivos estratégicos
+
+Essa abordagem cria entusiasmo, garante alinhamento e mobiliza recursos internamente para inovação com impacto.
+
+## Use the Jobs to be Done Framework to Help Customers Complete Jobs
+
+A estrutura JTBD ajuda equipes a entenderem o que os clientes estão tentando realizar ao usar um produto. Os quatro princípios são:
+
+1. Centrado no cliente: identificar tarefas reais por meio de conversas
+2. Agnóstico em relação à solução: começar com o problema, não com uma solução pré-concebida
+3. Estável no tempo: focar em necessidades duradouras
+4. Resultados mensuráveis: medir como a solução ajuda o cliente a atingir seu objetivo
+
+Exemplo: a Bloomington Caregivers projetou um app para ajudar pacientes a sentirem mais controle sobre seu processo de saúde e comunicação com profissionais, aplicando JTBD para guiar decisões de design.
+
+---
+
+# Accountability in Design
+
+## Learn About Demonstrating Business and Social Value
+
+Design de valor cria impacto:
+
+- **Valor comercial**: experiências desejáveis, viáveis e tecnicamente possíveis que aumentam receita e eficiência
+- **Valor social**: produtos e serviços que promovem mudanças positivas e equidade
+- O design de relacionamento ajuda a equilibrar ambos e criar conexões duradouras com clientes e comunidades
+
+## Make Accountability Part of Your Design Practice
+
+A responsabilidade pode ser empresarial (resultados, receita) e social (impactos nas comunidades). A Salesforce usa uma estrutura de quatro etapas:
+
+1. Ativar mentalidade de negócios
+2. Identificar o ponto de partida do valor comercial
+3. Integrar processos para entregar esse valor
+4. Considerar a maturidade do design na organização
+
+Isso ajuda a alinhar KPIs e design, promovendo impacto mensurável.
+
+## Plan a Consequence Scanning Workshop
+
+O workshop de Análise de Consequências avalia impactos positivos e negativos (intencionais ou não). Estrutura:
+
+**Fase de ideação**
+- Brainstorm de consequências
+- Classificação em matriz de 4 quadrantes
+
+**Fase de ação**
+- Categorias: agir, influenciar ou monitorar
+- Votação e atribuição de responsabilidades
+
+Práticas recomendadas:
+- Escopo restrito
+- Participantes diversos
+- Tarefa prévia
+- Integração em roteiros ou backlogs
+
+---
+
+# Relationship Design at Scale
+
+## Explore Key Considerations for Scaling Relationships
+
+Ao escalar relacionamentos com tecnologia, considere:
+
+- Tipo de relacionamento desejado
+- Como a tecnologia pode permitir esse relacionamento
+- Benefícios e trade-offs
+
+Exemplo: A Bloomington Caregivers usa quiosques e agendamento por app para manter acessibilidade, mas pondera como isso afeta a confiança e o vínculo pessoal com pacientes.
+
+## Use Technology Responsibly to Build Trust
+
+A tecnologia não substitui relações humanas, mas pode ampliá-las com responsabilidade. Exemplo:
+
+- Automatização do agendamento
+- Videoconferência e bots para comunicação prática
+- Cuidados com externalidades (ex: substituição de médicos por IA pode prejudicar relações)
+
+**Riscos**: Perda de confiança se não houver planejamento. A confiança é construída com previsibilidade, segurança de dados, consistência e alinhamento com valores.
+
+## Learn How Design Systems Support Design at Scale
+
+Sistemas de design ajudam a escalar com consistência e acessibilidade. São conjuntos de componentes reutilizáveis que padronizam UI e UX. Benefícios:
+
+- Eficiência no desenvolvimento
+- Redução da carga cognitiva
+- Aumento da confiança na marca
+
+**Boas práticas**:
+- Inclusão de especialistas em acessibilidade
+- Cores e textos conforme WCAG
+- Atributos ARIA e testes com usuários diversos
+- Equipes diversas no processo de design
