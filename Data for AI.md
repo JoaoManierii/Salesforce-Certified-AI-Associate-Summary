@@ -1223,3 +1223,78 @@ Conjuntos de dados grandes (milhões de linhas) têm menor risco de viés aciden
 > **Equilíbrio é fundamental**: nem muitos detalhes nem simplicidade excessiva.
 
 ## Data Quality Dimensions Cheat Sheet
+
+# O que são Dimensões de Qualidade de Dados?
+
+**Qualidade de Dados** é uma medida do grau em que os dados são adequados à finalidade.  
+Uma boa qualidade de dados gera confiança nos dados.
+
+As **Dimensões de Qualidade de Dados** são medidas específicas de atributos da qualidade dos dados.
+
+---
+
+## Completude
+
+**Definição:**  
+A completude mede o grau em que todos os registros esperados em um conjunto de dados estão presentes.  
+No nível dos elementos de dados, é o grau em que todos os registros têm dados preenchidos quando esperado.
+
+**Exemplo de Completude:**  
+- Todos os registros devem ter um valor preenchido no campo `CustomerName`.
+
+---
+
+## Validade
+
+**Definição:**  
+A validade mede o grau em que os valores em um elemento de dados são válidos.
+
+**Exemplo de Validade:**  
+- O valor `CustomerBirthDate` deve ser uma data no passado.  
+- O valor `CustomerAccountType` deve ser "Empréstimo" ou "Depósito".  
+- O valor `LatestAccountOpenDate` deve ser uma data no passado.
+
+---
+
+## Singularidade (Exclusividade)
+
+**Definição:**  
+A singularidade mede o grau em que os registros em um conjunto de dados não são duplicados.
+
+**Exemplo de Singularidade:**  
+- Todos os registros devem ter um `CustomerID` e um `CustomerName` exclusivos.
+
+---
+
+## Pontualidade
+
+**Definição:**  
+Pontualidade é o grau em que um conjunto de dados está disponível quando esperado.  
+Depende de acordos de nível de serviço (SLAs) estabelecidos entre os recursos técnicos e comerciais.
+
+**Exemplo de Pontualidade:**  
+- Todos os registros no conjunto de dados de clientes devem ser carregados até às **9h**.
+
+---
+
+## Consistência
+
+**Definição:**  
+Consistência mede o grau em que os dados são os mesmos em todas as instâncias.  
+Pode ser avaliada definindo um limite de variação aceitável entre conjuntos de dados.
+
+**Exemplo de Consistência:**  
+- A contagem de registros carregados hoje deve estar dentro de **+/- 5%** da contagem de registros carregados ontem.
+
+---
+
+## Precisão
+
+**Definição:**  
+Precisão mede o grau em que os dados refletem corretamente o valor real.
+
+**Exemplo de Precisão:**  
+- Todos os registros na **Tabela de Clientes** devem ter campos precisos (`Nome do Cliente`, `Data de Nascimento do Cliente` e `Endereço do Cliente`) quando comparados ao **Formulário de Imposto**.
+
+---
+
