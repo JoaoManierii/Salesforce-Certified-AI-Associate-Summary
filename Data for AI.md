@@ -910,10 +910,316 @@ Sempre se pergunte:
 - Há mais perguntas a serem respondidas?
 - Estou considerando o contexto completo dos dados?
 
-
-
-## Build Your Data Literacy
 ## Is Your Data AI-Ready?
+# A importância dos dados para o sucesso da IA Agente
+
+Qual é uma das ações mais importantes que você pode tomar para implementar com sucesso a IA agente? Se você respondeu "gerenciar dados", parabéns.
+
+## Exemplos de problemas com dados
+
+- Uma companhia aérea foi forçada a reembolsar um viajante após um bot fornecer informações incorretas sobre política de luto.
+- Um bot disse a empreendedores de Nova York que era aceitável infringir certas leis.
+- Uma IA acusou incorretamente um astro da NBA de vandalismo.
+
+O que deu errado?  
+Pode ter sido:
+- Supervisão deficiente
+- Falta de proteções adequadas
+- **Problemas com os dados**: dados ruins, rotulados incorretamente, de fontes desconhecidas ou espalhados em vários sistemas.
+
+Pesquisas mostram:
+- Quase 6 em cada 10 usuários de IA acham difícil obter o que precisam da IA atual.
+- Mais da metade não confia nos dados usados para treinar sistemas de IA.
+
+Essa falta de confiança prejudica a adoção da IA e a competitividade.
+
+## A importância da IA centrada em dados
+
+**Agentes de IA** prometem remodelar o trabalho e o relacionamento com clientes, mas para isso precisam de:
+- Dados precisos
+- Dados atualizados
+- Dados acessíveis
+- Dados completos
+
+Esse conceito é chamado de **IA centrada em dados**, baseada apenas em dados de qualidade.
+
+# O que sua empresa pode fazer agora
+
+## 1. Conectar suas fontes de dados
+
+Conecte marketing, vendas, serviços e comércio em **um único registro atualizado em tempo real**.  
+Assim, o agente de IA poderá acessar toda a amplitude de dados.
+
+## 2. Garantir a qualidade dos dados
+
+Remova:
+- Duplicatas
+- Discrepâncias
+- Erros
+- Outros fatores que possam prejudicar os resultados da IA
+
+# Como conectar todos os dados da sua empresa
+
+O acesso **em tempo real** a dados de qualidade é essencial, mas muitas empresas ainda têm dados:
+- Em silos
+- Em formatos variados
+- Espalhados em vários sistemas
+
+A falta de harmonização de dados é o segundo maior obstáculo para extrair valor dos dados.
+
+## Solução: Salesforce Data Cloud
+
+- Conecta dados estruturados e não estruturados numa plataforma unificada.
+- Suporte para processamento de áudio e vídeo (ex: webinars, chamadas).
+- Modelo de dados semântico para ajudar humanos e IA a interpretar dados de forma consistente.
+
+Esses dados alimentam o **Agentforce**, conjunto de ferramentas de IA para agentes da Salesforce.
+
+Exemplo:
+- Um Agente de Serviço pode acessar e-mails antigos, tickets, mensagens de voz e mais para melhor atender o cliente.
+
+# Estabelecendo bases para agentes de IA centrados em dados
+
+Os dados **não precisam ser perfeitos**, mas **precisam ser limpos**:
+- Sem erros
+- Sem formatos inconsistentes
+- Sem duplicatas
+- Sem rótulos incorretos
+
+## Modelo de limpeza de dados (segundo especialistas da Tableau)
+
+### 1. Remover observações duplicadas ou irrelevantes
+
+- Duplicatas surgem ao combinar conjuntos de dados.
+- Dados irrelevantes (ex: dados de idosos em análise de hábitos da geração Y) devem ser removidos.
+
+### 2. Corrigir erros estruturais
+
+- Ex: "N/A" vs "não aplicável" — devem ser padronizados para análise precisa.
+
+### 3. Filtrar valores discrepantes
+
+- Analisar outliers para decidir se devem ser mantidos ou removidos.
+
+### 4. Lidar com dados ausentes
+
+Métodos:
+- Remover observações com valores ausentes (perde-se informação).
+- Preencher com base em outras observações (risco de suposições incorretas).
+- Ajustar a análise para lidar com valores ausentes.
+
+### 5. Validar os dados
+
+Após a limpeza, pergunte:
+- Os dados fazem sentido?
+- Seguem regras adequadas?
+- Confirmam ou refutam teorias?
+- Ajudam a descobrir tendências?
+
+# Na era da IA, os dados são preciosos
+
+Em breve, os dados:
+- **Não apenas apoiarão**, mas serão a espinha dorsal de sistemas e processos.
+- **Impulsionarão decisões** e **ações em tempo real**, com supervisão humana.
+
+As empresas de sucesso:
+- Não apenas coletarão dados
+- Integrarão dados com tecnologias para aproveitar novas oportunidades
+
+**Dados são uma grande fonte de diferenciação competitiva.**
+
+Segundo Rahul Auradkar, VP Executivo da Salesforce:
+
+> "Nesta nova era de IA e agentes, os dados e metadados dos clientes são o novo ouro para a empresa."
+
 ## Data Management Best Practice Guide
+ 	
+# Gerenciamento de Dados com a Salesforce
+
+O gerenciamento de dados é fundamental para o sucesso de qualquer cliente com a Salesforce. Garantir a obtenção de dados úteis pode ajudar sua equipe a atingir seus objetivos e descobrir o que vem por aí para o seu negócio.
+
+Abaixo, você encontrará trilhas de aprendizado no **Trailhead** (plataforma de aprendizado prática e gratuita da Salesforce), artigos de instruções e tutoriais em vídeo, todos elaborados por especialistas da Salesforce para ajudar você a assumir o controle dos seus dados.
+
+## Crie uma estratégia de gerenciamento de dados
+
+Uma estratégia de dados clara:
+- Mantém sua organização no caminho certo
+- Alinha sua equipe sobre como os dados serão coletados, revisados e usados
+- Impulsiona metas de negócios
+
+Esses recursos ajudarão você a identificar e evitar desafios comuns.
+
+## Melhore a qualidade dos dados
+
+A qualidade dos dados impacta:
+- Rastreamento
+- Relatórios
+- Eficácia da implantação do Salesforce
+
+Esses recursos ajudarão você a descobrir:
+- Fatores que afetam a qualidade dos dados
+- Como preparar sua equipe para o sucesso
+
+## Importar dados
+
+Importe seus dados existentes para o Salesforce para:
+- Incluir registros anteriores em seus relatórios e rastreamentos
+
+**Comece com:**
+- Série de vídeos "Excluir dados de teste", para aprender a excluir dados de teste antes de carregar dados reais.
+- Outros tutoriais que ensinam como importar dados corretamente.
+
+## Manter e limpar dados
+
+Conforme você importa e coleta dados, siga práticas recomendadas para:
+- Manter os dados limpos a longo prazo
+- Assegurar dados úteis, relatórios acionáveis e rastreamento preciso
+
+## Vá além com o gerenciamento de dados
+
+Use os recursos para:
+- Obter orientação adicional
+- Conectar-se com especialistas da Salesforce
+- Avançar no gerenciamento de dados
+
+---
+
+# História de Caso: CloudKicks
+
+**Sobre a empresa:**  
+A CloudKicks fabrica tênis confortáveis, projetados e personalizados para seus clientes.  
+Com o crescimento do negócio de varejo online, a empresa passou a usar o Salesforce para:
+- Gerenciar processos de vendas
+- Centralizar dados de clientes
+
+**Desafio enfrentado por Linda Rosenberg:**  
+Linda, administradora da CloudKicks, precisava:
+- Configurar rapidamente o Salesforce para capturar novos dados de pedidos
+- Importar dados históricos de planilhas para relatórios trimestrais
+
+**O problema:**  
+Após a primeira importação, os relatórios não batiam com os números das planilhas originais.
+
+**A investigação:**  
+Linda:
+- Assistiu vídeos
+- Leu materiais de orientação
+- Explorou a Comunidade Trailblazer
+- Descobriu causas potenciais como dados duplicados, dados incompletos e padrões inconsistentes
+
+**A solução:**  
+- Revisou e limpou entradas duplicadas nas planilhas
+- Reimportou os dados
+- Relatórios passaram a bater com os dados originais
+
+**Lição aprendida:**  
+- A facilidade de inserir dados errados
+- A importância de um plano formal de gerenciamento de dados
+
+**Ações tomadas:**  
+Linda reuniu gerentes e executivos para:
+- Formalizar regras de coleta, nomeação e mensuração de dados
+
+**Resultados para a CloudKicks:**
+- Equipe de vendas entende como e onde inserir dados
+- Gerentes têm clareza sobre expectativas nos relatórios
+- Executivos confiam nos dados para guiar as decisões de negócios
+
+
 ## Determine Data Requirements
+
+# Determinar Requisitos de Dados
+
+A preparação de dados é um processo de refinamento iterativo. À medida que você se aprofunda nos dados, novas pistas surgem. Descobertas podem fazer com que você reavalie suposições anteriores e ajuste sua implementação de preparação de dados de acordo.
+
+> **Nota:** As histórias da Descoberta de Einstein agora são chamadas de modelos. Você pode ainda ver o nome antigo em alguns lugares.
+
+## Requisitos de Dados do Einstein Discovery
+
+- Necessário um conjunto de dados do CRM Analytics com pelo menos:
+  - 1 variável de resultado
+  - 2 variáveis explicativas ou preditoras
+- Suporte para até 50 variáveis.
+- Mínimo de 400 observações conhecidas.
+- Suporte para até 20 milhões de observações.
+
+> Saiba mais em: **Capacidades e Requisitos do Einstein Discovery**.
+
+## Considere os Estados de Registro Anteriores
+
+- Fontes como Salesforce armazenam apenas o estado atual do registro.
+- Fontes de logs armazenam versões históricas.
+- Para acessar dados anteriores:
+  - Tire snapshots históricos.
+  - Use campos personalizados para valores anteriores.
+
+## Determine o Nível de Granularidade
+
+- Pergunte: Qual nível de insight é interessante para o objetivo?
+- Use **agrupamento** no Gerenciador de Dados para ajustar granularidade.
+- **Erro comum:** Agregar dados em excesso.
+
+**Exemplo:**  
+Para entender efeitos do dia da semana, use dados no nível **diário**, não mensal.
+
+## Determinar Prazos Relevantes
+
+- Concentre-se em janelas de tempo específicas relevantes para a variável de resultado.
+- Eventos mais próximos do resultado geralmente são preditores mais fortes.
+- Para previsões, use variáveis disponíveis no momento da decisão.
+
+**Exemplo:**  
+Para inadimplência, use score de crédito no momento da solicitação, não eventos pós-aprovação.
+
+## Decida Quantos Dados Obter
+
+- Mais dados = mais precisão.
+- Se houver mais ruído nos dados, mais linhas são necessárias.
+- Mais valores possíveis por coluna → mais dados necessários.
+
+**Exemplo:**
+- 10.000 linhas com 2 gêneros = 5.000 observações por gênero.
+- 10.000 linhas com 50 estados = 200 observações por estado.
+
+## Considere a Série Temporal
+
+- Para dados que mudam ao longo do tempo:
+  - Reflita as sequências temporais nos dados e no modelo.
+- Proporcione dados que representem a realidade, com a granularidade adequada.
+
+## Pense Proporcionalmente
+
+- Mantenha a proporção das variáveis equilibrada.
+- Evite viés extraindo subconjuntos desbalanceados.
+
+**Nota:**  
+Conjuntos de dados grandes (milhões de linhas) têm menor risco de viés acidental.
+
+## Forneça Resultados Conhecidos
+
+- Einstein Discovery analisa em torno de um resultado específico (ex.: margem de vendas, taxa de fechamento).
+- Dados devem ter resultados conhecidos.
+- Dados sem resultado (ex.: negócio nem fechado nem perdido) são ignorados.
+
+## Considere o Preconceito e a Imparcialidade
+
+- Dados podem refletir práticas tendenciosas.
+- O Einstein Discovery:
+  - Detecta variáveis proxy e impactos díspares.
+  - Permite filtrar variáveis sensíveis (gênero, idade).
+
+**Ações:**
+- Excluir dados tendenciosos durante a preparação.
+- Consulte: **Detectar e Remover Viés de um Modelo**.
+- Aprenda mais em: **Criação Responsável de Inteligência Artificial no Trailhead**.
+
+## Analisar sem Overfitting ou Underfitting
+
+| Problema       | Abordagem |
+|----------------|-----------|
+| **Sobreajuste** (Overfitting) | Usar muitos campos detalhados faz o modelo memorizar ruído e falhar em dados novos. Evite usando menos variáveis específicas. |
+| **Subajuste** (Underfitting) | Modelo simples demais que não captura padrões dos dados. |
+
+> **Equilíbrio é fundamental**: nem muitos detalhes nem simplicidade excessiva.
+
 ## Data Quality Dimensions Cheat Sheet
